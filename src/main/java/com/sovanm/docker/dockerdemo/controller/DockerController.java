@@ -8,7 +8,13 @@ public class DockerController {
 
 	@GetMapping("/name")
 	public String getMyName() {
-		
+
 		return "Simple Spring Boot Application";
+	}
+
+	@GetMapping("/code")
+	public String getCode() {
+
+		return "Simple Spring Boot Application Code";
 	}
 }
